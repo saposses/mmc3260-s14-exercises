@@ -1,0 +1,39 @@
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: alice, georgia, serif;
+    color: #7401DF; 
+    line-height: 10px;
+    padding: 10px 10px 5px 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: cagliostro, arial, sans-serif;
+    color: #6E6E6E;
+    line-height: 20px;
+    padding: 0 10px 5px 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: asap, arial, sans-serif;
+    padding: 0 20px 0 20px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding: 2%;       
+    }
+    
+    h1, h2 {
+        text-align: center;
+        margin-left: -5%;
+    }
+        
+    
+}
